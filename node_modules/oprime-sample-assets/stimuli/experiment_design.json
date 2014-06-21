@@ -1,0 +1,202 @@
+{
+	"title": {
+		"default": "localized_title",
+		"gamified_title": "localized_gamified_title"
+	},
+	"database": "https://localhost:6984/testingexperiment-debugging",
+	"participants": [{
+		"participant_code": "AA",
+		"age": 22.34,
+		"date_of_birth": 20101231,
+		"userid": 1234512345
+	}, {
+		"participant_code": "BB",
+		"age": 23.34,
+		"date_of_birth": 20101131,
+		"userid": 12347823930
+	}],
+	"experimenter": [{
+		"experimenter_code": "NN",
+		"role": "observer",
+		"userid": 1234512345
+	}, {
+		"experimenter_code": "RT",
+		"role": "test_administrator",
+		"userid": 12347823930
+	}],
+	"description": {
+		"default": "localized_description_for_teacher",
+		"for_child": "localized_description_for_child",
+		"for_parent": "localized_description_for_parent",
+		"for_experimentAdministrator": "localized_description_for_teacher",
+		"for_school_records": "localized_description_for_school_record",
+		"for_experimentAdministratorSpecialist": "localized_description_for_slp"
+	},
+	"instructions": {
+		"default": "localized_instructions_for_teacher",
+		"for_child": "localized_instructions_for_child",
+		"for_parent": "localized_instructions_for_parent",
+		"for_experimentAdministrator": "localized_instructions_for_teacher",
+		"for_school_records": "localized_instructions_for_school_record",
+		"for_experimentAdministratorSpecialist": "localized_instructions_for_slp"
+	},
+	"end_instructions": {
+		"default": "localized_end_instructions_for_teacher",
+		"for_child": "localized_end_instructions_for_child",
+		"for_experimentAdministrator": "localized_end_instructions_for_teacher",
+		"for_experimentAdministratorSpecialist": "localized_end_instructions_for_slp"
+	},
+	"discussion": {
+		"default": "localized_discussion_for_teacher",
+		"for_parent_succeeded": "localized_discussion_for_teacher_succeeded",
+		"for_parent_not_quite_succeeded": "localized_discussion_for_teacher_not_quite_succeeded",
+		"for_parent_did_not_succeed": "localized_discussion_for_teacher_did_not_succeed",
+		"for_experimentAdministrator": "localized_discussion_for_teacher",
+		"for_school_records": "localized_discussion_for_teacher",
+		"for_experimentAdministratorSpecialist_succeeded": "localized_discussion_for_teacher_succeeded",
+		"for_experimentAdministratorSpecialist_not_quite_succeeded": "localized_discussion_for_teacher_not_quite_succeeded",
+		"for_experimentAdministratorSpecialist_did_not_succeed": "localized_discussion_for_teacher_did_not_succeed"
+	},
+	"imageAssetsPath": "stimuli/image",
+	"audioAssetsPath": "stimuli/audio",
+	"iconSrc": "img/icon.png",
+	"congratulationsImageSrc": "img/ic_oprime.png",
+	"scoreTotal": 0,
+	"subexperiments": [{
+		"label": "practice",
+		"title": {
+			"default": "localized_practice",
+			"gamified_title": "localized_gamified_practice"
+		},
+		"participants": [{
+			"participant_code": "AA",
+			"age": 22.34,
+			"date_of_birth": 20101231,
+			"userid": 1234512345
+		}, {
+			"participant_code": "BB",
+			"age": 23.34,
+			"date_of_birth": 20101131,
+			"userid": 12347823930
+		}],
+		"experimenter": [{
+			"experimenter_code": "NN",
+			"role": "observer",
+			"userid": 1234512345
+		}, {
+			"experimenter_code": "RT",
+			"role": "test_administrator",
+			"userid": 12347823930
+		}],
+		"description": {
+			"default": ""
+		},
+		"instructions": {
+			"default": "localized_instructions_for_child"
+		},
+		"promptUserBeforeContinuing": {
+			"text": "localized_instructions_for_child",
+			"audioFile": ""
+		},
+		"reinforcementAnimation": {
+			"animationImages": [{
+				"incompleteImageFile": "0.png"
+			}, {
+				"incompleteImageFile": "1.png"
+			}, {
+				"incompleteImageFile": "2.png"
+			}, {
+				"incompleteImageFile": "3.png"
+			}],
+			"firstImageSrc": "img/blank.png",
+			"lastImageSrc": "stimuli/image/0.png"
+		},
+		"trials": [{
+			"responses": [],
+			"stimulus": {
+				"phonemic": "ni",
+				"audio": "ni",
+				"orthographic": "ni",
+				"audioFile": "1.mp3"
+			},
+			"target": {
+				"imageFile": "x.png",
+				"phonemic": "ni",
+				"orthographic": "x"
+			},
+			"distractors": [{
+				"imageFile": "unicorn.svg",
+				"phonemic": "junikorn",
+				"orthographic": "unicorn"
+			}]
+		}],
+		"scoreSubTotal": 0
+	}, {
+		"label": "testblock",
+		"title": {
+			"default": "localized_practice",
+			"gamified_title": "localized_gamified_practice"
+		},
+		"participants": [{
+			"participant_code": "AA",
+			"age": 22.34,
+			"date_of_birth": 20101231,
+			"userid": 1234512345
+		}, {
+			"participant_code": "BB",
+			"age": 23.34,
+			"date_of_birth": 20101131,
+			"userid": 12347823930
+		}],
+		"experimenter": [{
+			"experimenter_code": "NN",
+			"role": "observer",
+			"userid": 1234512345
+		}, {
+			"experimenter_code": "RT",
+			"role": "test_administrator",
+			"userid": 12347823930
+		}],
+		"description": {
+			"default": "localized_description_for_child"
+		},
+		"instructions": {
+			"default": "localized_instructions_for_child"
+		},
+		"promptUserBeforeContinuing": {
+			"text": "localized_ready",
+			"audioFile": ""
+		},
+		"reinforcementAnimation": {
+			"animationImages": [{
+				"incompleteImageFile": "a.png"
+			}, {
+				"incompleteImageFile": "b.png"
+			}, {
+				"incompleteImageFile": "c.png"
+			}],
+			"firstImageSrc": "stimuli/image/a.png",
+			"lastImageSrc": "stimuli/image/c.png"
+		},
+		"trials": [{
+			"responses": [],
+			"stimulus": {
+				"phonemic": "junikorn",
+				"audio": "junikorn",
+				"orthographic": "unicorn",
+				"audioFile": "2.mp3"
+			},
+			"target": {
+				"imageFile": "unicorn.png",
+				"phonemic": "junikorn",
+				"orthographic": "unicorn"
+			},
+			"distractors": [{
+				"imageFile": "x.png",
+				"phonemic": "*",
+				"orthographic": "not_unicorn"
+			}]
+		}],
+		"scoreSubTotal": 0
+	}]
+}

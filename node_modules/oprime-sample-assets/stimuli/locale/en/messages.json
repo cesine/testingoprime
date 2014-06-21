@@ -1,0 +1,51 @@
+{
+	"change_experiment_language": {
+		"message": "Change Experiment Language",
+		"description": "An optional explaination of what this is for..."
+	},
+	"localized_title": {
+		"message": "Sample Experiment"
+	},
+	"localized_gamified_title":{
+		"message": "Listen"
+	},
+	"localized_description_for_child": {
+		"message": "In this game, you will see pretty colors!"
+	},
+	"localized_description_for_teacher": {
+		"message": ""
+	},
+	"localized_description_for_parent": {
+		"message" : "",
+	},
+	"localized_description_for_slp": {
+		"message" : ""
+	},
+	"localized_instructions_for_teacher": {
+		"message" : ""
+	},
+	"localized_instructions_for_child": {
+		"message" : ""
+	},
+	"localized_instructions_for_school_record": {
+		"message" : ""
+	},
+	"localized_instructions_for_parent": {
+		"message" : ""
+	},
+	"localized_localized_instructions_for_slp": {
+		"message" : ""
+	},
+	"localized_end_instructions_for_teacher": {
+		"message" : ""
+	},
+	"localized_end_instructions_for_child": {
+		"message" : ""
+	},
+	"localized_end_instructions_for_slp": {
+		"message" : ""
+	},
+	"localized_ready": {
+		"message": "Ready?"
+	}
+}
